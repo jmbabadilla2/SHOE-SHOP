@@ -35,8 +35,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 10px 0;
-    width: 80px;
-    height: 80px;
+    color: var(--text-color);
     
 }
 
