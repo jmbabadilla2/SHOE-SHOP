@@ -195,3 +195,47 @@ header .shopping span{
     margin-top: 1.5rem;
     border-top: 1px double var(--text-color);
 }
+
+footer {
+    align-items: center;
+    background-color: var(--bg-color);
+}
+
+.container-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.list1 {
+    grid-column-start: 1;
+    text-align: left;
+    margin-left: 30px;
+    }
+
+.list1 a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.list2{
+    grid-column-start: 2;
+    text-align: left;
+    
+}
+
+.list2 a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.list3 {
+    grid-column-start: 3;
+    position: right;
+    text-align: left;
+    color: var(--text-color);
+    margin-right: 30px;
+}
+
+center {
+    color: var(--text-color);
+}
